@@ -58,7 +58,7 @@ namespace Group07
 
         public static void ConvertToJason()
         {
-            TextWriter writer = new StreamWriter("../../..tweets.jason");
+            TextWriter writer = new StreamWriter("../../../..tweets.jason");
 
             foreach(Tweet t in tweets)
             {

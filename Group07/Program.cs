@@ -16,9 +16,12 @@ namespace Group07
             //TweetManager.ShowAll();
 
             //User Input
-            Write("Please enter the category: ");
-            string category = ReadLine();
-            TweetManager.ShowAll(category);
+            //Write("Please enter the category: ");
+            //string category = ReadLine();
+            //TweetManager.ShowAll(category);
+
+            //Jason Serialize
+            TweetManager.ConvertToJason();
             
 
             

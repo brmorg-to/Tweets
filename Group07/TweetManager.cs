@@ -17,7 +17,7 @@ namespace Group07
 
         static TweetManager()
         {
-            fileName = "C:\\Bruno_Morgado\\Centennial_College\\Second_Semester\\Programming2\\Assignments\\Assignment3\\tweets.txt";
+            fileName = "C:\\Bruno_Morgado\\Centennial_College\\Second_Semester\\Programming2\\Assignments\\Assignment3\\Group07\\tweets.txt";
             int count = File.ReadAllLines($"{fileName}").Length;
             tweets = new Tweet[count];
                         
@@ -58,7 +58,7 @@ namespace Group07
 
         public static void ConvertToJason()
         {
-            TextWriter writer = new StreamWriter("../../../..tweets.jason");
+            TextWriter writer = new StreamWriter("../../..tweets.jason");
 
             foreach(Tweet t in tweets)
             {

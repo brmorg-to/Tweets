@@ -12,19 +12,19 @@ namespace Group07
     {
         static void Main(string[] args)
         {
-            
-            //TweetManager.ShowAll();
+
+            TweetManager.ShowAll();
 
             //User Input
-            //Write("Please enter the category: ");
-            //string category = ReadLine();
-            //TweetManager.ShowAll(category);
+            Write("Please enter the category: ");
+            string category = ReadLine();
+            TweetManager.ShowAll(category);
 
             //Jason Serialize
             TweetManager.ConvertToJason();
-            
 
-            
+
+
         }
     }
 }
